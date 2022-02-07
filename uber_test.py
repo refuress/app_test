@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
 
 df = pd.read_csv("https://raw.githubusercontent.com/refuress/app_test/main/weather_hourly_darksky.csv")
 
